@@ -41,5 +41,18 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    flex-direction: col
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: normal;
+    word-wrap: break-all;
+}
+
+.output .previous-operand{
+    color:rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand{
+    color:white;
+    font-size: 2.5rem;
 }
